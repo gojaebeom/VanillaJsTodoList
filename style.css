@@ -1,0 +1,48 @@
+html, body{
+    height:100%;
+}
+body{
+    background-color: #f4f4f4;
+    margin:0px;
+}
+
+.todo-component{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+
+    margin:0px auto;
+    margin-top:200px;
+    width:500px;
+    border-radius:5px;
+    border: 1px solid #dedede;
+    background-color: white;
+    padding:20px;
+}
+.todo-component .todo-create{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.todo-component .todo-create input{
+    flex:8;
+}
+.todo-component .todo-create button{
+    flex:4;
+}
+
+.todo-component ul{
+    width:100%;
+    list-style-type: none;
+    padding-left: 0px;
+   
+}
+.todo-component ul li{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    border-radius:3px;
+    border:1px solid #dedede;
+}
